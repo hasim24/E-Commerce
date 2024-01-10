@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.nav-link{
+    display: flex;
+    column-gap: 10px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: darkolivegreen;
+}
+.nav-links a:hover{
+    text-decoration: underline;
+    color: darkolivegreen;
+}
+.nav-menu{
+    display: none;
+}
+
+.side-nav{
+    background-color: #1D232C;
+    color: white;
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 10px;
+    transition: 2s;
+}
+.side-nav-links{
+    margin-bottom: 30px;
+}
+.side-nav-links a{
+    color: white;
+    text-decoration: none;
+}
+.side-nav-links a:hover{
+    
+    text-decoration: underline;
+}
+
+/*header*/
+
+.header{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    gap: 50px;
+}
+.header-button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #1D232C;
+    color: whitesmoke;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+/*service*/
+
+.service{
+    padding: 20px;
+}
+.service-1{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.service-2{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.service-2 div{
+    background-color: rgb(226, 222, 222);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.new-arrival{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.new-1{
+    position: relative;
+    flex-basis: 20%;
+}
+.new-1 button{
+    background: whitesmoke;
+    color: black;
+    padding: 5% 5%;
+    position: absolute;
+    top: 45%;
+    left: 17%;
+    border: none;
+    border-radius: 40%;
+    cursor: pointer;
+}
+.news-letter{
+    margin: 50px;
+    text-align: center;
+}
+.news-letter input{
+    border: solid black 2px;
+    width: 80%;
+    padding: 8px;
+}
+.news-letter div button{
+    margin-top: 20px;
+    padding: 7px 10px;
+    background: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+}
+.footer{
+    background-color: #1D232C;
+    padding: 30px 10px 25px 25px;
+    color: white;
+}
+
+.product-section{
+    margin: 20px;
+}
+
+.search-section{
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.search-section input{
+    width: 100%;
+    border: none;
+    background: transparent;
+}
+.search-section input:focus{
+    outline: none;
+}
+.products{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.product-box{
+    text-align: center;
+    flex-basis: 20%;
+}
+.product-box img{
+    border-radius: 15px;
+}
+
+/*contacts*/
+
+.contact-box{
+    background: #1D232C;
+    color: white;
+    margin: 20px 100px;
+    padding: 35px 25px;
+    border: none;
+    border-radius: 10px;
+}
+.contact-box h3{
+    padding: 10px 0px;
+}
+.contact-name {
+    padding-bottom: 10px;
+}
+.contact-name input{
+    width: 97%;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+.contact-name input:focus{
+    outline: none;
+}
+.contact-email{
+    padding-bottom: 10px;
+}
+.contact-email input{
+    width: 97%;
+    height: 40px;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+.contact-email input:focus{
+    outline: none;
+}
+.contact-message{
+    padding-bottom: 10px;
+}
+.contact-message input{
+    width: 97%;
+    height: 80px;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+.contact-message input:focus{
+    outline: none;
+}
+#submit{
+    margin-top: 10px;
+    padding: 10px 10px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:700px) {
+    .nav-menu{
+        display: block;
+    }
+    .nav-link{
+        display: none;
+    }
+    .header-image{
+        display: none;
+    }
+    .service-1{
+        display: none;
+    }
+    .service-2{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
